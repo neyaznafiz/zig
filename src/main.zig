@@ -18,6 +18,7 @@ const shape = @import("./shape.zig");
 const allocator = @import("./allocator.zig");
 const optional = @import("./optional.zig");
 const structExpression = @import("./struct.zig");
+const arrList = @import("./array_list.zig");
 
 pub fn main () !void {
     // const result = sum.add_of_two(12, 5);
@@ -51,6 +52,7 @@ pub fn main () !void {
 
     // optional.oprionalOperator();
 
-    structExpression.structStruucture();
+    // structExpression.structStruucture();
+    try arrList.arrList();
 }
 
